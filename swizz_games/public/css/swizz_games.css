@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+
+h1 {
+	font-family: 'Times New Roman', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	height: 73px;
+	margin-left: 316px;
+	width: 340px;
+}
+
+#h1_index {
+	float: left;
+}
+
+nav {
+  background-color: #add8e6;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 5px;
+	float: left;
+	height: 800px;
+	left: 5px;
+	position: relative;
+	width: 200px;
+}
+
+/* Allows database to be added to without affecting the positioning or display
+of the homepage or navigation bar */
+.scrollable {
+	overflow-y: auto;
+}
+
+.games_list_nav {
+	height: 600px;
+	margin-top: 12px;
+}
+
+.game_nav {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.coverart_thumbnail {
+	height: 110px;
+	position: relative;
+	width: 100%;
+}
+
+.title_nav, .title_index {
+	color: black;
+	display: block;
+	font-family: 'Arial', sans-serif;
+	float: left;
+	height:100%;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.title_nav {
+	font-size: 13px;
+	line-height: 100px;
+	text-align: right;
+}
+
+.title_nav_bg, .title_index_bg {
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.title_nav_bg{
+	height: 20px;
+	top: 40px;
+}
+
+.title_nav:link, .title_index:link{
+	text-decoration: none;
+}
+
+.title_nav:visited, .title_index:visited {
+	text-decoration: none;
+}
+
+.title_nav:hover, .title_index:hover {
+	text-decoration: underline;
+}
+
+.title_nav:active {
+	text-decoration: none;
+}
+
+.selected {
+	background-color: rgba(255, 255, 0, 0.7);
+}
+
+.options {
+	position: absolute;
+	top: 640px;
+	width: 200px;
+}
+
+.option_link {
+	background-color: #43CC7F;
+	border-radius: 10px;
+	font-family: 'Arial', sans-serif;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+}
+
+.option_link a {
+	color: black;
+	display: block;
+	line-height: 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#login_index {
+	color: black;
+	display: block;
+	float: left;
+	line-height: 20px;
+	margin-left: 158px;
+	margin-top: 13px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+}
+
+main {
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+	float: left;
+	left: 10px;
+	height: 800px;
+	position: relative;
+	width: 750px;
+}
+
+#main_index {
+	float: left;
+	left: 12px;
+	height: 800px;
+	position: relative;
+	width: 950px;
+}
+
+h2, h3, h4 {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+.display_games_index {
+	height: 800px;
+	width: 950px;
+}
+
+.games_list_index {
+	margin-top: 5px;
+}
+
+.game_index {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 2px;
+	height: 300px;
+	float: left;
+	margin: 7px;
+	position: relative;
+	width: 300px;
+}
+
+.title_index {
+	font-size: 22px;
+	line-height: 275px;
+	text-align: center;
+}
+
+.title_index_bg {
+	height: 26px;
+	top: 124px;
+}
+
+.coverart_index {
+	height: 300px;
+	width: 300px;
+}
+
+.message {
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 255px;
+	margin-top: 20px;
+	text-align: center;
+	width: 220px;
+}
+
+.errors {
+	border: 2px solid red;
+	font-size: 24px;
+	margin-left: 70px;
+	margin-top: 25px;
+	width: 580px;
+}
+
+.error {
+	list-style: circle;
+	list-style-position: inside;
+	margin-bottom: 2px;
+}
+
+.admin_options {
+	text-align: center;
+}
+
+.game_info_head {
+	float: left;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 98%;
+}
+
+.title {
+	float: left;
+	margin-right: 10px;
+}
+
+.year {
+	float: left;
+}
+
+.game_info_para {
+	float: left;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	width: 98%;
+}
+
+.description {
+	margin-bottom: 35px;
+}
+
+.coverart_view {
+	display: block;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+#form_cont {
+	margin-left: 20px;
+	margin-top: 50px;
+	width: 650px;
+}
+
+label {
+	display: inline-block;
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	text-align: right;
+	width: 200px;
+}
+
+input {
+	font-size: 24px;
+	width: 405px;
+}
+
+#submit {
+	font-size: 28px;
+	height: 60px;
+	margin-left: 255px;
+	margin-top: 20px;
+	width: 200px;
+}
+
+select {
+	font-size: 24px;
+	margin-right: 48%;
+}
+
+footer {
+  background-color: #E5E4E9;
+	bottom: 0;
+  height: 20px;
+	position: fixed;
+  width: 100%;
+}
+
+#copyright {
+	font-family: 'Arial', sans-serif;
+	margin-top: 4px;
+	text-align: right;
+}
